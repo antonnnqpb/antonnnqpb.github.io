@@ -114,3 +114,7 @@ h4 {
 .ba-shoping-list .ba-description:after {
   content: ')';
 }
+.ba-footer{
+  border: none;
+  cursor: pointer;
+}
