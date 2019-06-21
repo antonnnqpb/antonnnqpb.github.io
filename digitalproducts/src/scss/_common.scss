@@ -1,0 +1,33 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html,body {
+	min-height: 100vh;
+	font-size: 100%
+}
+
+body {
+	font-family: $main-font;
+	font-size: $base-size;
+	background-color: $white;
+
+}
+
+h1,h2,h3,h4,h5,h6,p,ul {
+	margin: 0;
+}
+ul,li {
+	list-style: none;
+}
+
+
+a {
+  display: inline-block;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}

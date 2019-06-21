@@ -1,0 +1,46 @@
+//SIZE:
+
+$small-size: 13px;
+$base-size: 16px;
+$middle-size: 18px;
+$huge-size: 21px;
+$big-size: 26px;
+$main-title: 32px;
+$about-title: 40px;
+$header-title: 64px;
+
+
+//COLORS:
+
+$white: #ffffff;
+$black: #000000;
+$red: #da4935;
+$blue: #005a87;
+$grey: #665f60;
+$accent: #9f9acf;
+$lightgrey: #ebebeb;
+$services: #dbdbdb;
+$btn: #7d7a7c;
+//FONTS:
+
+$main-font: 'PT Sans',
+sans-serif;
+$sec-font: 'Nova Rg',
+sans-serif;
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700&display=swap');
+
+// font-family: 'PT Sans', sans-serif;
+
+@font-face {
+  font-family: 'Nova Rg';
+  src: url('../fonts/ProximaNova-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nova Rg';
+  src: url('../fonts/ProximaNova-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}

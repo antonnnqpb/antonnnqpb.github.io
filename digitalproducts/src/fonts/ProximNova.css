@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'Nova Rg';
+	src: url('../fonts/ProximaNova-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Nova Rg';
+	src: url('../fonts/ProximaNova-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}

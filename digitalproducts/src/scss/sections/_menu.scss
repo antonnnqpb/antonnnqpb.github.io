@@ -1,0 +1,36 @@
+.menu {
+  position: fixed;
+  top: 36px;
+  width: 100%;
+  z-index: 100;
+  transition: all .3s ease;
+
+  @media screen and (max-width: 577px) {
+    display: none;
+  }
+
+  &.fixed {
+    top: 0;
+    background-color: rgba($accent, .6);
+  }
+
+  .menu-navigation {
+
+    &__list {
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &__link {
+      @include text-style($big-size);
+      text-transform: uppercase;
+      transition: white .2s ease;
+
+      &:hover {
+        color: darken($white, 25%);
+      }
+    }
+  }
+}

@@ -34,9 +34,11 @@ ul > li > a {
 	margin: auto;
 }
 
-.search-form {
+.search-form  {
+	display: flex;
 	font-size: 0;
 	margin-bottom: 2rem;
+	background-size: 100%;
 	
 	& > * {
 		display: inline-block;
@@ -54,9 +56,9 @@ ul > li > a {
 
 	[type="submit"]	{
 		width: 115px;
-		height: 115px;
+		height: 150px;
 		background-image: url('../img/favicon.png');
-		background-size: 80%;
+		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: center;
 		cursor: pointer;

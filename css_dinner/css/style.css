@@ -62,6 +62,7 @@ h4 {
   padding: 0;
   margin: 0 0 40px;
 }
+
 .shoping-list li {
   background: #7a7593;
   border: 0 solid #fff;
@@ -69,11 +70,10 @@ h4 {
 .shoping-list li:nth-child(odd) {
   background: #88839e;
 }
-.shoping-list li:hover {
+.shoping-list_lbl:hover {
   background: #625e77;
-  border-width: 4px 0;
 }
-.shoping-list li:active {
+.shoping-list_lbl:active {
   background: #eb7e7f;
 }
 .shoping-list [type="checkbox"] {
@@ -105,10 +105,14 @@ h4 {
 .shoping-list .description {
   content: '';
 }
-.shoping-list .description {
-  content: '';
-}
-.footer{
+
+.footer_btn {
+  min-height: 20px;
+  width: 100%;
+  color:#eb7e7f;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: #4A4F56;
   border: none;
   cursor: pointer;
 }
